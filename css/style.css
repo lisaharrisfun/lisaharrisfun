@@ -10,7 +10,7 @@ body {
   color: #FFF;
   font-size: 12px;
   background: url("../img/bg.jpg") no-repeat center;
-  background-size: cover; }
+  background-size: auto 100%; }
 
 button, a {
   outline: none;
@@ -26,7 +26,7 @@ ul, p {
   flex-flow: column nowrap;
   width: 320px;
   margin: 0 auto;
-  height: 100%;
+  min-height: 100%;
   padding: 0; }
   .wrap h1 {
     margin: 20px 0;
@@ -70,6 +70,7 @@ ul, p {
       text-decoration: underline; }
   .wrap .social {
     display: flex;
+    margin-bottom: 20px;
     align-items: center;
     justify-content: center; }
     .wrap .social a {
