@@ -96,6 +96,7 @@ ul, p {
     display: block;
     width: 320px;
     height: 100%;
+    min-height: 394px;
     background: url("../img/paulycam.png") no-repeat center bottom;
     background-size: 320px 394px; }
 
