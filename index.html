@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<script src="js/script.js"></script>
+
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="img/favicon.svg">
+
+    <!-- Site Title  -->
+    <title>$CAM</title>
+    
+    <!-- Social Media -->
+    <meta property="og:title" content="$CAM"/>
+    <meta property="og:url" content="https://www.scamsol.fun/" />
+    <meta property="og:image" content="https://www.scamsol.fun/img/social.png" />
+
+    <meta name="title" content="$CAM">
+    <meta name="description" content="$CAM">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.scamsol.fun/">
+    <meta property="og:title" content="$CAM">
+    <meta property="og:description" content="$CAM">
+    <meta property="og:image" content="https://www.scamsol.fun/img/preview.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.scamsol.fun/">
+    <meta property="twitter:title" content="$CAM">
+    <meta property="twitter:description" content="$CAM">
+    <meta property="twitter:image" content="https://www.scamsol.fun/img/preview.png">
+    <meta name="theme-color" content="#0D131C"/>
+</head>
+<body>
+    <div class="wrap">
+        <h1>$CAM</h1>
+        <h2>Contract Address</h2>
+        <span class="address" id="ContractAddress">DJdVxBmcwQxz82rbZUSRCS8pM3qwNZ3oeB3J7KpUpump</span>
+        <span onclick="copyContent()" class="copy">copy</span>
+        <span class="trade">Trade @ <a href="https://www.pond0x.com/swap/solana/DJdVxBmcwQxz82rbZUSRCS8pM3qwNZ3oeB3J7KpUpump" target="_blank">Pond0x.com</a></span>
+        <span class="social">
+            <a href="https://x.com/Pauly0x/status/1810457177804456180" target="_blank" class="x"></a>
+            <a href="https://www.dextools.io/app/en/solana/pair-explorer/FCV8pXAQbb3fKcR73Uz8f4Q6VTxaFzLJ4BQmViouiWwr?t=1720523989223" target="_blank" class="dextools"></a>
+            <a href="https://dexscreener.com/solana/fcv8pxaqbb3fkcr73uz8f4q6vtxafzlj4bqmviouiwwr" target="_blank" class="dexscreener"></a>
+            <a href="https://solscan.io/token/DJdVxBmcwQxz82rbZUSRCS8pM3qwNZ3oeB3J7KpUpump" target="_blank" class="solana"></a>
+            <a href="https://pond0x.com/swap/solana?ref=KJxyBEV8Wj2EPfDDTtvfPWbeY64raX4D6WNEMfpZshtEZjCJhxFCW3rKcEBN" target="_blank" class="pond"></a>
+        </span>
+        <div class="pauly"></div>
+    </div>
+    
+    <script>
+        let text = document.getElementById('ContractAddress').innerHTML;
+        const copyContent = async () => {
+          try {
+            await navigator.clipboard.writeText(text);
+            console.log('Content copied to clipboard');
+          } catch (err) {
+            console.error('Failed to copy: ', err);
+          }
+        }
+      </script>
+</body>
+</html>
