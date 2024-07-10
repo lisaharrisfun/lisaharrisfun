@@ -12,7 +12,7 @@ body {
     color: #FFF;
     font-size: 12px;
     background: url('../img/bg.jpg') no-repeat center;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 button, a {
@@ -133,9 +133,9 @@ ul, p {
 
     .pauly {
         display: block;
+        margin-top: auto;
         width: 320px;
-        height: 100%;
-        min-height: 394px;
+        height: 394px;
         background: url('../img/paulycam.png') no-repeat center bottom;
         background-size: 320px 394px;
     }
