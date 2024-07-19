@@ -37,9 +37,9 @@ ul, p {
     h1 {
         margin: 20px 0;
         display: block;
-        font-size: 110px;
+        font-size: 60px;
         text-align: center;
-        height: 120px;
+        height: 60px;
     }
 
     h2 {
@@ -48,7 +48,7 @@ ul, p {
         font-size: 16px;
         text-align: center;
         font-weight: bold;
-        color: #000;
+        color: #A09118;
         height: 30px;
     }
 
@@ -63,7 +63,7 @@ ul, p {
         font-weight: bold;
         color: #FFF;
         text-decoration: none;
-        background: #B4162F;
+        background: #A09118;
         border-radius: 6px;
         cursor: pointer;
     }
@@ -131,13 +131,14 @@ ul, p {
         }
     }
 
-    .pauly {
+    .gnomed {
         display: block;
-        margin-top: auto;
-        width: 320px;
-        height: 394px;
-        background: url('../img/paulycam.png') no-repeat center bottom;
-        background-size: 320px 394px;
+        margin: 20px 0;
+        width: 300px;
+        height: 300px;
+        background: url('../img/gnomechild.png') no-repeat center bottom;
+        background-size: 300px;
+        border-radius: 10px;
     }
 }
 
