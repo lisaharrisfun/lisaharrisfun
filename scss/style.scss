@@ -11,7 +11,7 @@ body {
     font-family: 'DM Sans', 'Roboto', Arial, Verdana;
     color: #FFF;
     font-size: 12px;
-    background: url('../img/bg.jpg') no-repeat center;
+    background: url('../img/cover-bg.gif') no-repeat center;
     background-size: cover;
 }
 
@@ -45,10 +45,19 @@ ul, p {
     h2 {
         margin: 0;
         display: block;
+        font-size: 24px;
+        text-align: center;
+        color: #FFF;
+        font-weight: normal;
+    }
+
+    h3 {
+        margin: 0;
+        display: block;
         font-size: 16px;
         text-align: center;
         font-weight: bold;
-        color: #A09118;
+        color: #5B499D;
         height: 30px;
     }
 
@@ -63,7 +72,7 @@ ul, p {
         font-weight: bold;
         color: #FFF;
         text-decoration: none;
-        background: #A09118;
+        background: #5B499D;
         border-radius: 6px;
         cursor: pointer;
     }
@@ -131,14 +140,19 @@ ul, p {
         }
     }
 
-    .gnomed {
+    .lisa {
         display: block;
-        margin: 20px 0;
+        margin: 20px auto;
         width: 300px;
         height: 300px;
-        background: url('../img/gnomechild.png') no-repeat center bottom;
+        background: url('../img/lisaharris.png') no-repeat center bottom;
         background-size: 300px;
         border-radius: 10px;
+    }
+
+    .dd {
+        text-align: center;
+        opacity: 0.8;
     }
 }
 
